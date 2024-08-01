@@ -74,15 +74,25 @@ nav a{
 .div_class2{
     background-color: #fff8f3;
     max-width: 1000px;
+    margin: 100px auto;
 }
 .div_class3{
     display: flex;
-    padding-left: 120px; 
+    justify-content: space-around; 
+    padding-top: 40px;
+.div_class4{
+    text-align: center;
+}
 
 }
-.p1{
-   padding: 30px;
+#id5{
+    padding: 0 10px;
+    text-align: justify;
 }
-.span_class1{
+.h1_class1{
     text-align: center;
+    padding: 80px 0 0;
+}
+.p_class1{
+    font-weight: 700;
 }
