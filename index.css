@@ -96,3 +96,11 @@ nav a{
 .p_class1{
     font-weight: 700;
 }
+
+.div_class5{
+    max-width: 1000px;
+    margin: 100px auto;
+}
+#id6{
+    text-align: center;
+}
