@@ -4,6 +4,7 @@ nav{
     display: flex;
     justify-content: space-between;  /* space between tags*/
     align-items: center;  /* h3 & ul tag are the same level or center or same vertial a ache*/
+    margin: 0 200px;
 }
 nav ul{
     display: flex;
@@ -24,8 +25,41 @@ nav a{
     border: 0;
     height: 37px;
     padding: 10px 15px;
-    width: 100px;
+    width: 120px;
 } 
 .org_color{
     color: #FD6E0A;
+}
+
+/* Header styles */
+.header_class{
+    background-color: #fff8f3;
+}
+.div_class1{
+    margin: 130px 200px 0px 200px;
+}
+
+#id1{
+    font-size: x-large; 
+}
+#id2{
+    font-size: xx-large;
+    font-weight: 800;
+    margin-top: 5px;
+}
+#id4{
+    border: 1;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+    color: #fd6e0a;
+    width: 120px;
+    height: 37px;
+}
+.div_class2{
+    display: flex;
+    align-items: center;
+}
+.picture{
+   height: 440px;
+   width: 400px;
 }
