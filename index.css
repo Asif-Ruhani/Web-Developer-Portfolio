@@ -34,9 +34,14 @@ nav a{
 /* Header styles */
 .header_class{
     background-color: #fff8f3;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .div_class1{
-    margin: 130px 200px 0px 200px;
+    padding: 100px 100px 0px 200px; 
+    display: flex;
+    align-items: center;
 }
 
 #id1{
@@ -47,6 +52,9 @@ nav a{
     font-weight: 800;
     margin-top: 5px;
 }
+#id3{
+    text-align: justify;
+}
 #id4{
     border: 1;
     border-radius: 5px;
@@ -55,11 +63,26 @@ nav a{
     width: 120px;
     height: 37px;
 }
-.div_class2{
-    display: flex;
-    align-items: center;
-}
 .picture{
    height: 440px;
-   width: 400px;
+   width: 600px;
+   padding-left: 200px;
+   
+}
+
+/* Main section styles */
+.div_class2{
+    background-color: #fff8f3;
+    max-width: 1000px;
+}
+.div_class3{
+    display: flex;
+    padding-left: 120px; 
+
+}
+.p1{
+   padding: 30px;
+}
+.span_class1{
+    text-align: center;
 }
