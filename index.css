@@ -1,0 +1,31 @@
+
+/* Nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;  /* space between tags*/
+    align-items: center;  /* h3 & ul tag are the same level or center or same vertial a ache*/
+}
+nav ul{
+    display: flex;
+    align-items: center; /* "ul" tag er vitore ja ache tara sobai same vertial a ache*/
+}
+ nav li{
+    list-style: none;
+    margin-right: 50px;
+} 
+nav a{
+    text-decoration: none;
+} 
+
+ .org_back_color{
+    background-color: #FD6E0A; 
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    height: 37px;
+    padding: 10px 15px;
+    width: 100px;
+} 
+.org_color{
+    color: #FD6E0A;
+}
