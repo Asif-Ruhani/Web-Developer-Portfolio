@@ -42,6 +42,7 @@ nav a{
     padding: 100px 100px 0px 200px; 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 #id1{
@@ -54,19 +55,20 @@ nav a{
 }
 #id3{
     text-align: justify;
+    width: 700px;
 }
-#id4{
+ #id4{
     border: 1;
     border-radius: 5px;
     border-color: #FD6E0A;
     color: #fd6e0a;
     width: 120px;
     height: 37px;
-}
+} 
 .picture{
    height: 440px;
-   width: 600px;
-   padding-left: 200px;
+   width: 400px;
+   
    
 }
 
@@ -147,4 +149,38 @@ nav a{
 .div_class11{
     text-align: center;
     margin-top: 50px; 
+}
+
+
+/* Footer styles */
+
+footer{
+    background-color: #fff8f3;
+}
+
+.div_class12{
+    display: flex;
+    gap: 200px;
+    padding: 80px 100px;
+    
+}
+
+.form_class1 input, textarea, button{
+    display: block;
+}
+
+.form_class1 input, textarea{
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    width: 400px;
+}
+.form_class1 textarea{
+    height: 150px;
+}
+
+.form_class1 button{
+    margin-left: 10px;
 }
