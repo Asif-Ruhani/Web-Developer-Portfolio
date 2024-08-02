@@ -147,8 +147,19 @@ nav a{
 }
 
 .div_class11{
-    text-align: center;
+    /* text-align: center; */
     margin-top: 50px; 
+    margin-left: 50%;
+}
+
+.btn_class1{
+    background-color: #FD6E0A; 
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    height: 37px;
+    padding: 10px 15px;
+    width: 120px;
 }
 
 
