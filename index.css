@@ -32,12 +32,12 @@ nav a{
 }
 
 /* Header styles */
-.header_class{
+ .header_class{
     background-color: #fff8f3;
     background-image: url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-}
+} 
 .div_class1{
     padding: 100px 100px 0px 200px; 
     display: flex;
@@ -149,7 +149,7 @@ nav a{
 .div_class11{
     /* text-align: center; */
     margin-top: 50px; 
-    margin-left: 50%;
+    margin-left: 47%;
 }
 
 .btn_class1{
@@ -194,4 +194,47 @@ footer{
 
 .form_class1 button{
     margin-left: 10px;
+}
+
+.asif{
+    display: none;
+}
+
+
+/* Responsive layout */
+@media screen and (max-width: 576px) {
+    .div_class6{
+        flex-direction: column;
+    }
+    .div_class8{
+        flex-direction: column;
+    }
+    .div_class9{
+        margin-bottom: 50px;
+    }
+    .div_class3{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #id6{
+        text-align: justify;
+    }
+    .div_class11{
+      margin-left: 35%;
+    }
+    .div_class12{
+        flex-direction: column;
+        padding: 0px;
+    } 
+}
+
+@media screen and (min-width:576px) and (max-width: 992px){
+    .div_class6{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .div_class11{
+        margin-left: 45%;
+      }
+    
 }
