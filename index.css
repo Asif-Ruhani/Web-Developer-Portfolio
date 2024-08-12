@@ -224,7 +224,19 @@ footer{
     }
     .div_class12{
         flex-direction: column;
-        padding: 0px;
+        gap: 20px;
+        padding: 10px;
+    }
+    .form_class1{
+        margin-left: -20px;
+    }
+    .form_class1 input, textarea{
+        margin: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background: white;
+        width: 300px;
     } 
 }
 
@@ -236,5 +248,18 @@ footer{
     .div_class11{
         margin-left: 45%;
       }
+      .div_class12{
+        display: flex;
+        gap: 100px;
+        padding: 80px 10px;    
+    }
+    .form_class1 input, textarea{
+        margin: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background: white;
+        width: 250px;
+    } 
     
 }
