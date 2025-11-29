@@ -67,9 +67,7 @@ nav a{
 } 
 .picture{
    height: 440px;
-   width: 400px;
-   
-   
+   width: 400px;   
 }
 
 /* Main section styles */
@@ -196,63 +194,66 @@ footer{
     margin-left: 10px;
 }
 
-.asif{
+.hide{
     display: none;
 }
 
 
 /* Responsive layout */
-@media screen and (max-width: 576px) {
-    .div_class6{
-        flex-direction: column;
-    }
-    .div_class8{
-        flex-direction: column;
-    }
-    .div_class9{
-        margin-bottom: 50px;
-    }
+
+ /* @media screen and (max-width: 576px) {
     .div_class3{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    #id6{
-        text-align: justify;
-    }
+     .div_class6{
+        flex-direction: column;
+    } 
+     .div_class8{
+        flex-direction: column;
+    } 
     .div_class11{
-      margin-left: 35%;
-    }
-    .div_class12{
+        margin-left: 40%;
+      } 
+     .div_class9{
+        margin-bottom: 50px;
+    } 
+    
+     #id6{
+        text-align: justify;
+    } 
+    
+     .div_class12{
         flex-direction: column;
         gap: 20px;
         padding: 10px;
-    }
-    .form_class1{
+    } 
+     .form_class1{
         margin-left: -20px;
-    }
-    .form_class1 input, textarea{
+    } 
+     .form_class1 input, textarea{
         margin: 10px;
         padding: 10px 20px;
         border: none;
         border-radius: 5px;
         background: white;
         width: 300px;
-    } 
-}
+    }  
+} */
 
-@media screen and (min-width:576px) and (max-width: 992px){
+/* @media screen and (min-width:576px) and (max-width: 992px){
     .div_class6{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .div_class11{
+     .div_class11{
         margin-left: 45%;
-      }
-      .div_class12{
+      } 
+    .div_class12{
         display: flex;
         gap: 100px;
         padding: 80px 10px;    
-    }
+    } 
     .form_class1 input, textarea{
         margin: 10px;
         padding: 10px 20px;
@@ -260,6 +261,6 @@ footer{
         border-radius: 5px;
         background: white;
         width: 250px;
-    } 
-    
-}
+    }  
+
+}  */
